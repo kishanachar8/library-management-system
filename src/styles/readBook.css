@@ -1,0 +1,13 @@
+.readBook{
+    position: relative;
+    top: 90px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 30px;
+}
+h1{
+    font-size: 50px;
+}
+.readBook h6{
+    margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+.landingPage{
+  background-image: url('C:/Users/kisha/Desktop/React/library/public/images/library.png');
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+.selectLoginType{
+  position: absolute;
+  top: 200px;
+  left: -50px;
+  background-color: white;
+  color: gray;
+  margin:0px 0px 0px 400px;
+  height: 400px;
+  width: auto;
+  padding: 80px;
+  border-radius: 50px;
+}
+.selectLoginType img{
+  height: 100px;
+  width: 100px;
+  margin: 20px 120px;
+  border: 5px solid black;
+  border-radius: 100px;
+}
+.selectLoginType a{
+  text-decoration: none;
+}
+.btn1{
+  background-color: white;
+  margin: 20px 100px;
+  padding: 10px 20px;
+  border: 3px solid orange;
+  text-transform: uppercase;
+  color: black;
+}
+.btn2{
+  background-color: white;
+  margin: 20px 100px;
+  padding: 10px 20px;
+  border: 3px solid green;
+  text-transform: uppercase;
+  color: black;
+}

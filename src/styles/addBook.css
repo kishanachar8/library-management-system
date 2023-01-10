@@ -1,0 +1,18 @@
+.addBook{
+    font-family: cursive;
+    position: relative;
+    top: 90px;
+}
+.form{
+    border: 2px solid black;
+    text-align: center;
+    width: auto;
+}
+.form input{
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.form textarea{
+    width: 300px;
+}

@@ -1,0 +1,29 @@
+.adminNavbar{
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    display:block;
+    width: 100%;
+    justify-content: space-around;
+    background-color:cornflowerblue;
+    height: 80px;
+    align-items: center;
+}
+.adminNavbar h1{
+    color: white;
+    margin-right: 1200px;
+    font-family: cursive;
+    font-size: 25px;
+}
+.adminNavbar a{
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: white;
+    font-family: cursive;
+}
+.adminNavbar a:hover{
+    color: black;
+}
