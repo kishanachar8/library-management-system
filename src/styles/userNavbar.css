@@ -1,0 +1,29 @@
+.userNavbar{
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    display:block;
+    width: 100%;
+    justify-content: space-around;
+    background-color:black;
+    height: 80px;
+    align-items: center;
+}
+.userNavbar h1{
+    color: white;
+    margin-right: 1200px;
+    font-family: cursive;
+    font-size: 25px;
+}
+.userNavbar a{
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: white;
+    font-family: cursive;
+}
+.userNavbar a:hover{
+    color: black;
+}

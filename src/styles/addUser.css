@@ -1,17 +1,27 @@
 .addUser{
-    font-family: cursive;
     position: relative;
-    top: 90px;
+    top: 150px;
+    border: 3px solid black;
+    width: auto;
+    margin: 0px 500px;
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 10px 10px 5px black;
+    text-align: center;
+    font-family: cursive;
+    background-color: lightgray;
 }
-.name input{
-    border: 1px solid black;
+.form{
+    margin: 10px -500px;
 }
-.age input{
-    border: 1px solid black;
+.form input{
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 10px 5px;
 }
-.email input{
-    border: 1px solid black;
-}
-.phoneNumber input{
-    border: 1px solid black;
+.form  button{
+    border: 2px solid black;
+    margin: 10px -1px;
+    background-color: black;
+    color: white;
 }

@@ -36,7 +36,7 @@ const AddUser = () => {
                 <input type="email" placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                 <div className='phoneNumber'>
-                <input type="tel" placeholder='Phone Number' value={phoneNumber} onChange={(e)=>setNumber(e.target.value)}  min='10' max='10' className='form-control' />
+                <input type="tel" placeholder='Phone Number' value={phoneNumber} onChange={(e)=>setNumber(e.target.value)}  min='10' max='10'/>
                 </div>
                 <button className='btn btn-sucess'>Add User</button>
                 </form>
