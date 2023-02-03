@@ -1,5 +1,72 @@
-.userDashboard{
-    font-family: cursive;
-    position: relative;
-    top: 90px;
+.usrHome img{
+    width: 240vh;
+    height: 100vh;
 }
+.usrHome .headline{
+    position: absolute;
+    top: 40%;
+    width: 70%;
+    height: 40%;
+    background-color: rgb(242, 242, 246);
+   
+}
+.usrHome .headline h1{
+    font-size: xx-large; 
+     margin-left: -40%; 
+ } 
+ .usrHome .headline p{
+    font-size: xx-large;
+    color: black;
+    padding: 20px;
+    padding-top: 0; 
+}
+.usrHome .hvy{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(138, 151, 233);
+    margin-left: 10%;
+    box-shadow: 25px 5px 15px rgb(42, 48, 161);
+}
+.usrHome .hvy h1{
+    margin-left: -50%;
+}
+.usrHome .hvy p{
+    font-size:larger;
+}
+.usrHome .hvy #pi{
+    font-size:xx-larger;
+}  
+.usrHome .sidee1 img{
+    width: 240vh;
+    height: 100vh;
+    margin-top: 0px;
+}
+.usrHome .sidee1 .detl{
+    position: relative;
+    left: 20px;
+    bottom: 400px;
+    width: 130vh;
+    background-color: white;
+    
+}
+
+
+
+/* .usrHome .sidee1 .detl p{
+    width: 60%;
+    height: 300px;
+    background-color:white;
+    margin-left: 20%;
+    margin-top: -10%;
+    font-size: xx-large;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.usrHome  .prpr{
+    width: 100%;
+    height: 300px;
+     margin-top: 10%;
+     background-color: rgb(8, 8, 211);
+     background-image: url('https://wallpaperaccess.com/full/4210788.png');
+     background-size: cover;
+} */ 

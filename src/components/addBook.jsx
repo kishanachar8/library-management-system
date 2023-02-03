@@ -31,7 +31,7 @@ const AddBook=()=>{
     return(
         <div className="addBook">
             <h1>Add Book</h1>
-            <div className="form">
+            <div className="form1">
                 <form action="" onSubmit={handleSubmit}>
                 <div className="title">
                     <input value={title} onChange={(e)=>setTitle(e.target.value)} className="form-container mb-2 text-center" type="text" required placeholder="Enter title of the Book" />
@@ -52,7 +52,7 @@ const AddBook=()=>{
                 <textarea value={long} onChange={(e)=>setLong(e.target.value)} className="form container mb-2" id="" cols="30" rows="10" placeholder="Enter the Long Description"></textarea>
                 </div>
                 <div className="thumbnailUrl">
-                    < input value={url} onChange={(e)=>setUrl(e.target.value)} className="form container mb-2 text-center" type="text" required placeholder="Enter the Url of Image"/>
+                < input value={url} onChange={(e)=>setUrl(e.target.value)} className="form container text-center" type="text" required placeholder="Enter the Url of Image"/>
                 </div>
                 <button className="addbtn">Add Book</button>
                 </form>

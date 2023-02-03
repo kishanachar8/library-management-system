@@ -24,7 +24,7 @@ const AddUser = () => {
     return ( 
         <div className="addUser">
             <h1>Add User</h1>
-            <div className="form">
+            <div className="form1">
                 <form action="" onSubmit={handleSubmit}>
                 <div className='name'>
                 <input type="text" placeholder='Name' value={name} onChange={(e)=>setName(e.target.value)} />
